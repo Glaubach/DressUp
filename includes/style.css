@@ -107,13 +107,20 @@
 	}
 
 	#main-fig {
-		background-image: url(images/figure.jpg);
-		height: 363px;
-		width: 129px;
-		margin-left: 100px;
+		position:relative;
+		top:30px;
+		background-image: url(images/mainalison.png);
+		background-size: 250px;
+		height: 360px;
+		width: 256px;
+		
+		margin:0 auto;
+		background-repeat: no-repeat;
+
 	}
 	.alert-success {
 		position: absolute;
+		top:80px;
 		width: 100%;
 		display: block;
 	}
@@ -122,13 +129,26 @@
 		top: 40px;
 		left: 0px;
 		margin-top: 20px;
-		background-image: url(images/fulldressed.jpg);
+		background-image: url(images/figureisdressed.png);
 		height: 362px;
 		width: 129px;
 		margin-left: 90px;
 		z-index: 1;
 		background-repeat: no-repeat;
 	}
+/* figure_in_main class is only relevant for favourited.html*/
+.figure_in_main {
+		position: absolute;
+		top: 40px;
+		left: 0px;
+		margin-top: 20px;
+		background-image: url(images/figureisdressed.png);
+		height: 362px;
+		width: 129px;
+		margin-left: 90px;
+		z-index: 1;
+		background-repeat: no-repeat;
+}
 
 	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
 		width: 70%;
