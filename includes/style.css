@@ -1,0 +1,156 @@
+@media only screen and (max-width: 700px) {
+	* {
+		padding: 0px;
+		margin: 0px;
+
+	}
+	header {
+		height: auto;
+		border-bottom: solid;
+
+	}
+
+	header #logo {
+		display: block;
+		float: left;
+		background-image: url(images/logo.png);
+		height: 65px;
+		width: 124px;
+		background-repeat: no-repeat;
+	}
+
+	header #nav {
+		float: right;
+
+	}
+	.navbar-header {
+		padding-top: 10px;
+
+	}
+	.navbar-inner {
+    background:transparent;
+}
+	header #gift {
+		float: right;
+		background-image: url(images/gift85.png);
+		height: 60px;
+		width: 60px;
+		background-repeat: no-repeat;
+		margin-top: 10px;
+	}
+
+	#main {
+		position: relative;
+		margin-top: 80px;
+		height: 430px;
+		text-align: center;
+
+	}
+	.btn-success {
+		position: relative;
+		top: 385px;
+		width: 100%;
+	}
+
+	input[type=text] {
+		width: 80%;
+		padding: 12px 20px;
+		margin: 15px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		font-family: 'Rancho', cursive;
+		font-size: 25px;
+	}
+
+	#submit {
+		width: 50%;
+		background-color: #8080ff;
+		color: white;
+		padding: 0px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		height: 43px;
+	}
+	#submit:hover {
+		background-color: #CCCCFF;
+	}
+	.clear {
+		clear: both;
+	}
+
+	.btn-info {
+		float: left;
+		width: 50%;
+		height: 55px;
+	}
+
+	#text-menu {
+		font-family: 'Rancho', cursive;
+		font-size: 20px;
+		color: #ffffff;
+	}
+	.text-main-h1 {
+		font-family: 'Rancho', cursive;
+		font-size: 50px;
+		color: #8080ff;
+		padding: 0;
+		margin: 0;
+	}
+	.text-main {
+		font-family: 'Rancho', cursive;
+		font-size: 35px;
+		color: #ffffff;
+	}
+
+	#main-fig {
+		background-image: url(images/figure.jpg);
+		height: 363px;
+		width: 129px;
+		margin-left: 100px;
+	}
+	.alert-success {
+		position: absolute;
+		width: 100%;
+		display: block;
+	}
+	.figure {
+		position: absolute;
+		top: 40px;
+		left: 0px;
+		margin-top: 20px;
+		background-image: url(images/fulldressed.jpg);
+		height: 362px;
+		width: 129px;
+		margin-left: 90px;
+		z-index: 1;
+		background-repeat: no-repeat;
+	}
+
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		width: 70%;
+		margin: auto;
+	}
+	.glyphicon-star {
+		font-size: 15px;
+	}
+	.glyphicon-star-empty {
+		font-size: 12px;
+	}
+	.panel-body {
+		font-family: 'Rancho', cursive;
+		font-size: 28px;
+		position: absolute;
+		top: 100px;
+		left: 70px;
+		border: 1px solid black;
+		height: 120px;
+		width: 200px;
+		background: #e5f9ff;
+		z-index: 3;
+	}
+
+}
