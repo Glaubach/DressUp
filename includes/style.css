@@ -107,13 +107,20 @@
 	}
 
 	#main-fig {
-		background-image: url(images/figure.jpg);
-		height: 363px;
-		width: 129px;
-		margin-left: 100px;
+		position:relative;
+		top:30px;
+		background-image: url(images/mainalison.png);
+		background-size: 250px;
+		height: 360px;
+		width: 256px;
+		
+		margin:0 auto;
+		background-repeat: no-repeat;
+
 	}
 	.alert-success {
 		position: absolute;
+		top:80px;
 		width: 100%;
 		display: block;
 	}
